@@ -6,8 +6,7 @@
 #include "queue.h"
 #include "hardware/adc.h"
 
-const uint led_pin_red = 12;
-const uint led_pin_blue = 11;
+
 
 QueueHandle_t dataQueue; // Fila para comunicação entre as tasks
 
